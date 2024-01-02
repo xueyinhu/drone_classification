@@ -1,6 +1,6 @@
 **/__pycache__
 .vscode
-nets/attention_try/*
+# nets/attention_try/*
 nets/finally_try/*
 nets/finally_net.py
 nets/attention.py
