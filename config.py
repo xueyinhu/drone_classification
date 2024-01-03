@@ -8,7 +8,7 @@ def get_config():
 
     psr.add_argument('--net_name', default='MyNet')
     psr.add_argument('--epoch_count', default=80000)
-    psr.add_argument('--batch_size', default=64)
+    psr.add_argument('--batch_size', default=32)
     psr.add_argument('--save_steps', default=500)
     psr.add_argument('--optimizer', default='adam')
     psr.add_argument('--loss_fn', default='CategoricalCrossentropy')

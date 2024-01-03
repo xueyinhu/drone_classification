@@ -58,9 +58,9 @@ class ResM1(Model):
             layers.ELU()
         ])
 
-        # self.at = AttentionBasic(c, h, w)
+        self.at = AttentionBasic(c, h, w)
         # self.at = SE_Block(c)
-        self.at = CBAM_Block(c)
+        # self.at = CBAM_Block(c)
         # self.at = Coord_Block(c, h, w)
 
     def call(self, x):
