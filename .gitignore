@@ -3,4 +3,4 @@
 # nets/attention_try/*
 nets/finally_try/*
 nets/finally_net.py
-nets/attention.py
+nets/attention_t.py

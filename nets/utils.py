@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, Model, Sequential
 
 from nets.attention import AttentionBasic
+from nets.attention_t import AttentionBasicTest
 from nets.attention_other import *
 
 
@@ -58,7 +59,8 @@ class ResM1(Model):
             layers.ELU()
         ])
 
-        self.at = AttentionBasic(c, h, w)
+        # self.at = AttentionBasic(c, h, w)
+        self.at = AttentionBasicTest(c, h, w)
         # self.at = ECA_Block()
         # self.at = SE_Block(c)
         # self.at = CBAM_Block(c)
