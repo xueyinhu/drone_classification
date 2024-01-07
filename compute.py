@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from nets import MyNet, ShuffleNetV2
+from nets import MyNet, ShuffleNetV2, MobileNetV2, InceptionV3
 from config import get_config
 
 

@@ -11,3 +11,5 @@ from nets.ResNet34 import ResNet34
 from nets.ShuffleNetV2 import ShuffleNetV2
 
 from nets.attention import AttentionBasic
+
+from nets.compare import *
