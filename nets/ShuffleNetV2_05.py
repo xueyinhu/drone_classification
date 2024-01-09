@@ -132,7 +132,6 @@ def ShuffleNetV2M(include_top=True,
 def ShuffleNetV2(config):
     return ShuffleNetV2M(
         input_shape=config.input_size,
-        bottleneck_ratio=1,
+        bottleneck_ratio=0.5,
         classes=5
     )
-
