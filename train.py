@@ -20,7 +20,7 @@ logger = tf.get_logger()
 logger.disabled = True
 logger.setLevel(logging.FATAL)
 
-net = loader(ResNet50(config), 'Load => Net')
+net = loader(ShuffleNetV205X(config), 'Load => Net')
 
 t_idg = loader(get_idg(config, mode=True), 'Load => TrainImageDataGenerator')
 v_idg = loader(get_idg(config, mode=False), 'Load => ValidImageDataGenerator')

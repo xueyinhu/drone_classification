@@ -9,6 +9,7 @@ from nets.MobileNetV2 import MobileNetV2
 from nets.Xception import Xception
 from nets.ResNet34 import ResNet34
 from nets.ShuffleNetV2 import ShuffleNetV2
+from nets.ShuffleNetV2_05 import ShuffleNetV205X
 
 from nets.attention import AttentionBasic
 

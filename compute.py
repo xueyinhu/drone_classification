@@ -1,11 +1,11 @@
 import tensorflow as tf
 
-from nets import MyNet, ShuffleNetV2, MobileNetV2, InceptionV3
+from nets import *
 from config import get_config
 
 
-m = tf.keras.Sequential([
-    tf.keras.Input(shape=(960, 320, 3)),
-    MyNet(get_config())
-])
+i = tf.keras.Input((960, 320, 3))
+m = tf.keras.Model(i, MyNet(get_config())(i))
+# m = InceptionV3(get_config())
+# m.build((960, 320, 3))
 m.summary()
