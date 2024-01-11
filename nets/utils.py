@@ -62,13 +62,13 @@ class ResM1(Model):
         # self.at = AttentionBasic(c, h, w)
         # self.at = AttentionBasicTest(c, h, w)
         # self.at = ECA_Block()
-        # self.at = SE_Block(c)
+        self.at = SE_Block(c)
         # self.at = CBAM_Block(c)
         # self.at = Coord_Block(c, h, w)
 
     def call(self, x):
         y = self.c0(self.s2(self.s1(x)))
-        # y = self.at(y)
+        y = self.at(y)
         return y * .7 + x * .3
 
 
