@@ -60,9 +60,9 @@ class ResM1(Model):
         ])
 
         # self.at = AttentionBasic(c, h, w)
-        # self.at = AttentionBasicTest(c, h, w)
+        self.at = AttentionBasicTest(c, h, w)
         # self.at = ECA_Block()
-        self.at = SE_Block(c)
+        # self.at = SE_Block(c)
         # self.at = CBAM_Block(c)
         # self.at = Coord_Block(c, h, w)
 
