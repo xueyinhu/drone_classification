@@ -188,3 +188,76 @@ Epoch 17/80000
 2152/2152 [==============================] - 1302s 605ms/step - loss: 0.0187 - accuracy: 0.9957 - val_loss: 0.5808 - val_accuracy: 0.8713 - lr: 1.0000e-05
 """
 
+"""
+Num GPUs Available:  1 
+
+********************   Load => Net   ******************** -  -  -  - [state: Over]
+
+Found 68894 images belonging to 5 classes.
+********************   Load => TrainImageDataGenerator   ******************** -  -  -  - [state: Over]
+
+Found 7000 images belonging to 5 classes.
+********************   Load => ValidImageDataGenerator   ******************** -  -  -  - [state: Over]
+
+Epoch 1/80000
+2152/2152 [==============================] - 1513s 679ms/step - loss: 1.0985 - accuracy: 0.5673 - val_loss: 0.9015 - val_accuracy: 0.6636 - lr: 0.0010
+Epoch 2/80000
+2152/2152 [==============================] - 1397s 649ms/step - loss: 0.6459 - accuracy: 0.7778 - val_loss: 0.5953 - val_accuracy: 0.7934 - lr: 0.0010
+Epoch 3/80000
+2152/2152 [==============================] - 1393s 647ms/step - loss: 0.5170 - accuracy: 0.8241 - val_loss: 0.6833 - val_accuracy: 0.7653 - lr: 0.0010
+Epoch 4/80000
+2152/2152 [==============================] - 1392s 647ms/step - loss: 0.4411 - accuracy: 0.8497 - val_loss: 0.7659 - val_accuracy: 0.7678 - lr: 0.0010
+Epoch 5/80000
+2152/2152 [==============================] - 1392s 647ms/step - loss: 0.3871 - accuracy: 0.8702 - val_loss: 1.0350 - val_accuracy: 0.7418 - lr: 0.0010
+Epoch 6/80000
+2152/2152 [==============================] - 1395s 648ms/step - loss: 0.2017 - accuracy: 0.9355 - val_loss: 0.4467 - val_accuracy: 0.8631 - lr: 1.0000e-04
+Epoch 7/80000
+2152/2152 [==============================] - 1397s 649ms/step - loss: 0.1289 - accuracy: 0.9606 - val_loss: 0.4641 - val_accuracy: 0.8650 - lr: 1.0000e-04
+Epoch 8/80000
+2152/2152 [==============================] - 1395s 648ms/step - loss: 0.0916 - accuracy: 0.9730 - val_loss: 0.5069 - val_accuracy: 0.8617 - lr: 1.0000e-04
+Epoch 9/80000
+2152/2152 [==============================] - 1394s 648ms/step - loss: 0.0675 - accuracy: 0.9806 - val_loss: 0.5217 - val_accuracy: 0.8685 - lr: 1.0000e-04
+Epoch 10/80000
+2152/2152 [==============================] - 1386s 644ms/step - loss: 0.0467 - accuracy: 0.9878 - val_loss: 0.5203 - val_accuracy: 0.8688 - lr: 1.0000e-05
+Epoch 11/80000
+2152/2152 [==============================] - 1393s 647ms/step - loss: 0.0424 - accuracy: 0.9893 - val_loss: 0.5227 - val_accuracy: 0.8698 - lr: 1.0000e-05
+"""
+
+"""
+Num GPUs Available:  1 
+
+********************   Load => Net   ******************** -  -  -  - [state: Over]
+
+Found 68894 images belonging to 5 classes.
+********************   Load => TrainImageDataGenerator   ******************** -  -  -  - [state: Over]
+
+Found 7000 images belonging to 5 classes.
+********************   Load => ValidImageDataGenerator   ******************** -  -  -  - [state: Over]
+
+Epoch 1/80000
+2152/2152 [==============================] - 1506s 675ms/step - loss: 1.1075 - accuracy: 0.5585 - val_loss: 0.7313 - val_accuracy: 0.7405 - lr: 0.0010
+Epoch 2/80000
+2152/2152 [==============================] - 1417s 658ms/step - loss: 0.6441 - accuracy: 0.7751 - val_loss: 0.8360 - val_accuracy: 0.7047 - lr: 0.0010
+Epoch 3/80000
+2152/2152 [==============================] - 1418s 659ms/step - loss: 0.5019 - accuracy: 0.8274 - val_loss: 0.6565 - val_accuracy: 0.7848 - lr: 0.0010
+Epoch 4/80000
+2152/2152 [==============================] - 1424s 661ms/step - loss: 0.4322 - accuracy: 0.8519 - val_loss: 0.5414 - val_accuracy: 0.8187 - lr: 0.0010
+Epoch 5/80000
+2152/2152 [==============================] - 1449s 673ms/step - loss: 0.3771 - accuracy: 0.8712 - val_loss: 0.5590 - val_accuracy: 0.8188 - lr: 0.0010
+Epoch 6/80000
+2152/2152 [==============================] - 1424s 662ms/step - loss: 0.3385 - accuracy: 0.8851 - val_loss: 0.5767 - val_accuracy: 0.8291 - lr: 0.0010
+Epoch 7/80000
+2152/2152 [==============================] - 1436s 667ms/step - loss: 0.3017 - accuracy: 0.8980 - val_loss: 0.9508 - val_accuracy: 0.7570 - lr: 0.0010
+Epoch 8/80000
+2152/2152 [==============================] - 1479s 687ms/step - loss: 0.1528 - accuracy: 0.9515 - val_loss: 0.4699 - val_accuracy: 0.8654 - lr: 1.0000e-04
+Epoch 9/80000
+2152/2152 [==============================] - 1477s 686ms/step - loss: 0.0945 - accuracy: 0.9721 - val_loss: 0.4834 - val_accuracy: 0.8698 - lr: 1.0000e-04
+Epoch 10/80000
+2152/2152 [==============================] - 1399s 650ms/step - loss: 0.0657 - accuracy: 0.9804 - val_loss: 0.5239 - val_accuracy: 0.8661 - lr: 1.0000e-04
+Epoch 11/80000
+2152/2152 [==============================] - 1401s 651ms/step - loss: 0.0507 - accuracy: 0.9853 - val_loss: 0.5514 - val_accuracy: 0.8657 - lr: 1.0000e-04
+Epoch 12/80000
+2152/2152 [==============================] - 1398s 650ms/step - loss: 0.0353 - accuracy: 0.9909 - val_loss: 0.5491 - val_accuracy: 0.8690 - lr: 1.0000e-05
+Epoch 13/80000
+2152/2152 [==============================] - 1395s 648ms/step - loss: 0.0313 - accuracy: 0.9922 - val_loss: 0.5538 - val_accuracy: 0.8697 - lr: 1.0000e-05
+"""
