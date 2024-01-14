@@ -10,6 +10,8 @@ from nets.Xception import Xception
 from nets.ResNet34 import ResNet34
 from nets.ShuffleNetV2 import ShuffleNetV2
 from nets.ShuffleNetV2_05 import ShuffleNetV205X
+from nets.MobileNetV3Small import MobileNetV3Small
+from nets.MobileNetV3Large import MobileNetV3Large
 
 from nets.attention import AttentionBasic
 
