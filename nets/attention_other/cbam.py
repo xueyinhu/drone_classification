@@ -48,7 +48,7 @@ class CBAM_Block(Model):
 
 
 # m = tf.keras.Sequential([
-#     tf.keras.Input(shape=(40, 40, 64)),
+#     tf.keras.Input(shape=(120, 40, 64)),
 #     CBAM_Block(64)
 # ])
 # m.summary()
