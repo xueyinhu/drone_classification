@@ -16,3 +16,5 @@ from nets.MobileNetV3Large import MobileNetV3Large
 from nets.attention import AttentionBasic
 
 from nets.compare import *
+
+from nets.de_noising import *

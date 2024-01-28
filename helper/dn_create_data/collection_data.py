@@ -17,12 +17,12 @@ def collection_from_shuffle():
             omp = oup + 'train/'
         else:
             omp = oup + 'valid/'
-        for nos in ['0', '6', '12', '18', '24', '30']:
-            shutil.copyfile(inp + imp + '_0_' + nos + '_0_2.jpg', omp + str(idx)+ '_' + nos + '.jpg')
+        for nos in ['00', '06', '12', '18', '24', '30']:
+            shutil.copyfile(inp + imp + '_0_' + str(int(nos)) + '_0_2.jpg', omp + str(idx)+ '_' + nos + '.jpg')
     print("Done!")
 
 
-
+collection_from_shuffle()
 
 
 
