@@ -17,4 +17,6 @@ from nets.attention import AttentionBasic
 
 from nets.compare import *
 
+from nets.main_net_try import *
+
 from nets.de_noising import *
