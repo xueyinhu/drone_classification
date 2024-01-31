@@ -5,10 +5,10 @@ from tensorflow.python.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 
 class CB(Model):
     def __init__(self, c, a=2, b=2):
-        super(self).__init__()
+        super().__init__()
         self.b1 = Sequential([
             Conv2D(c, (1, 1)),
-            MaxPool2D((3, 3), (a, b))
+            MaxPool2D((3, 3), (a, b), 'same')
         ])
         self.b2 = Sequential([
             Conv2D(c, (1, 1)),
@@ -31,8 +31,8 @@ class CB(Model):
         )
 
 class TryModel_1(Model):
-    def __init__(self):
-        super(Inc1, self)._init__()
+    def __init__(self, configs):
+        super().__init__()
         self.head = Sequential([
             Conv2D(4, (3, 3), (1, 1), 'same')
         ])
