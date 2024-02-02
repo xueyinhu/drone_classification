@@ -1,7 +1,16 @@
 from absl import logging
 import os
+import random
 
+import numpy as np
 import tensorflow as tf
+
+
+random_seed = 3
+random.seed(random_seed)
+np.random.seed(random_seed)
+tf.random.set_seed(random_seed)
+os.environ['TF_DETERMINISTIC_OPS'] = '1'
 
 from config import get_config
 from nets import *
