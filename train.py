@@ -6,16 +6,17 @@ import numpy as np
 import tensorflow as tf
 
 
-random_seed = 3
-random.seed(random_seed)
-np.random.seed(random_seed)
-tf.random.set_seed(random_seed)
-os.environ['TF_DETERMINISTIC_OPS'] = '1'
+# random_seed = ?
+# random.seed(random_seed)
+# np.random.seed(random_seed)
+# tf.random.set_seed(random_seed)
+# os.environ['TF_DETERMINISTIC_OPS'] = '1'
 
 from config import get_config
 from nets import *
 from dataset_loader import get_idg
 from utils import loader
+
 
 
 print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')), '\n')
